@@ -53,7 +53,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/chat/message",
+        "https://spur-assignment-v9of.onrender.com/chat/message",
         {
           message: currentInput,
           sessionId: localStorage.getItem("sessionId")
