@@ -27,7 +27,7 @@ function App() {
 
       try {
         const response = await axios.get(
-          `http://127.0.0.1:8000/chat/history/${sessionId}`
+          `https://spur-assignment-v9of.onrender.com/chat/history/${sessionId}`
         );
 
         if (response.data.length > 0) {
